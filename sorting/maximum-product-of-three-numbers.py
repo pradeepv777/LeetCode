@@ -1,5 +1,6 @@
 class Solution:
     def maximumProduct(self, nums: List[int]) -> int:
+        nums.sort()
         maxi = 1
         mini = 1
         for i in range(len(nums)-1,len(nums)-4,-1):
