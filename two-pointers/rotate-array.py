@@ -7,6 +7,8 @@ class Solution:
                 right -=1
 
         n = len(nums)
+        if n<=1:
+            return nums
         k = k%n
 
         reversal(0,n-1)
