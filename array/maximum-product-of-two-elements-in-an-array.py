@@ -2,8 +2,8 @@ class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         max1 = float("-inf")
         max2 = float("-inf")
-        max1id = -1
-        max2id = -1
+        max1id = 0
+        max2id = 0
         
         for i in range(len(nums)):
             if nums[i] > max1:
