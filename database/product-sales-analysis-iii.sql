@@ -1,5 +1,5 @@
 # Write your MySQL query statement below
-selects.product_id,s.year as first_year,s.quantity,s.price
+select s.product_id,s.year as first_year,s.quantity,s.price
 from sales s
 join (
 select
