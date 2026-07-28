@@ -6,7 +6,7 @@ class Solution:
         while left<right:
             total = n[left] + n[right]
             if total == target:
-                return left+1,right+1
+                return [left+1,right+1]
             elif total>right:
                 right -=1
             else:
