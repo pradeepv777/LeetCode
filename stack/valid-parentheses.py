@@ -1,9 +1,5 @@
-class Solution(object):
-    def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
+class Solution:
+    def isValid(self, s: str) -> bool:
         stack = []
         map = {
         ')' : '(',
@@ -11,14 +7,14 @@ class Solution(object):
         '}' : '{'
         }
         for i in s:
-            if i in '{[(':
+            if i in "([{":
                 stack.append(i)
             else:
                 if not stack:
                     return False
-                elif stack[-1]!= map[i]:
+                elif stack[-1] != map[i]:
                     return False
                 stack.pop()
-        return len(stack)== 0 
+        return len(stack)==0
 
-       
+        
