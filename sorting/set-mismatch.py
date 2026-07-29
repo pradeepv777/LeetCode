@@ -8,8 +8,7 @@ class Solution:
                 nums[correctid],nums[i] = nums[i],nums[correctid]
             else:
                 i+=1
-            for i in range(n):
+        for i in range(n):
                 if i+1 != nums[i]:
-                    
                     return [nums[i],i+1]
                 
