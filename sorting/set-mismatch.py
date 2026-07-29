@@ -11,5 +11,5 @@ class Solution:
             for i in range(n):
                 if i+1 != nums[i]:
                     
-                    return [i,i+1]
+                    return [nums[i],i+1]
                 
