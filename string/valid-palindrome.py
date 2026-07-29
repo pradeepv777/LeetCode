@@ -1,15 +1,11 @@
-class Solution(object):
-    def isPalindrome(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
-        
-        ss=''
-        
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        pal = ""
+        palrev = ""
         for i in s:
-          if i.isalnum() :
-            ss+=i.lower()
-        return ss==ss[::-1]
-
+            if i.isalnum():
+                pal += i.lower()
+        for i in pal :
+            palrev = i+palrev
+        return palrev == pal
         
