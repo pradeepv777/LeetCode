@@ -5,10 +5,11 @@ class Solution:
         for i in range(len(nums)):
             prefix+=nums[i]
             rem = prefix%k
+
             if rem in seen:
                 if i - seen[rem]>=2:
                     return True
-                else:
+            else:
                     seen[rem] = i
         return False
         
