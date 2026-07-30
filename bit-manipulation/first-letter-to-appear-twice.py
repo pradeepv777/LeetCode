@@ -1,8 +1,8 @@
 class Solution:
     def repeatedCharacter(self, s: str) -> str:
-        sets = set()
+        sets = []
         for i in s:
             if i in sets:
                 return i
-            sets.add(i)
+            sets.append(i)
         
