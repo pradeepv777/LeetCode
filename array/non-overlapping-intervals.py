@@ -8,6 +8,6 @@ class Solution:
             if current[0]<prev_end:
                 count+=1
             else:
-                prev_end = current[0]
+                prev_end = current[1]
         return count
-        
+
