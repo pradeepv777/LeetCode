@@ -20,6 +20,8 @@ class Solution:
                     return False
                 elif ten == 0 and five>3:
                     five -=3
+                else:
+                    return False
         return True
 
 
