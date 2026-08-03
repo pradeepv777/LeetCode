@@ -4,7 +4,6 @@ class Solution:
         for i in range(len(nums)):
             if i > farthest:
                 return False
-            else:
-                farthest = max(farthest, i + nums[i])
+            farthest = max(farthest, i + nums[i])
         return True
         
