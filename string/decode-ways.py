@@ -15,6 +15,6 @@ class Solution:
                 way+= dfs(i+2)
             memo[i] = way
             return memo[i]
-        return dfs(0)A
+        return dfs(0)
         
         
