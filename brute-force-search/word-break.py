@@ -1,5 +1,6 @@
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
+        wordDict = set(wordDict)
         memo = {}
         def dfs(i):
             if i in memo:
