@@ -5,7 +5,7 @@ class Solution:
         num_set = set(nums)
         max_length = 0
         
-        for num in nums:
+        for num in num_set:
             if (num-1) not in num_set:
                 curr_length = 0
 
