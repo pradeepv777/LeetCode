@@ -1,35 +1,36 @@
+from collections import Counter
+
+
 class Solution:
 
-  def minWindow(self, s: str, t: str) -> str:
-    if not t:
-      return ""
+    def minWindow(self, s: str, t: str) -> str:
+        if not s or not t or len(s) < len(t):
+            return ""
 
-    countT, window = {}, {}
-    for c in t:
-      countT[c] = countT[c] + 1 if c in countT else 1
+        count_t = Counter(t)
+        window = {}
 
-    have, need = 0, len(countT)
-    res, resLen = [-1, -1], float("inf")
-    l = 0
+        have, need = 0, len(count_t)
+        res, min_len = [-1, -1], float("inf")
+        l = 0
 
-    for r in range(len(s)):
-      c = s[r]
-      window[c] = window[c] + 1 if c in window else 1
+        for r, char in enumerate(s):
+            window[char] = window.get(char, 0) + 1
+            if char in count_t and window[char] == count_t[char]:
+                have += 1
 
-      if c in countT and window[c] == countT[c]:
-        have += 1
+            while have == need:
+                if (r - l + 1) < min_len:
+                    res = [l, r]
+                    min_len = r - l + 1
 
-      while have == need:
-        # Update our result
-        if (r - l + 1) < resLen:
-          res = [l, r]
-          resLen = (r - l + 1) + 0
+                left_char = s[l]
+                window[left_char] -= 1
 
-        # Pop from the left of our window
-        window[s[l]] -= 1
-        if s[l] in countT and window[s[l]] < countT[s[l]]:
-          have -= 1
-        l += 1
+                if left_char in count_t and window[left_char] < count_t[left_char]:
+                    have -= 1
 
-    l, r = res
-    return s[l : r + 1] if resLen != float("inf") else ""
+                l += 1
+
+        l, r = res
+        return s[l : r + 1] if min_len != float("inf") else ""
