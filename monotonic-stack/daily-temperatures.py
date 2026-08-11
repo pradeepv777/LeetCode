@@ -7,8 +7,6 @@ class Solution:
                 stack.pop()
             if stack:
                 temps[i] = stack[-1] - i
-            else:
-                temps[i] = 0
             stack.append(i)
         return temps
         
