@@ -1,36 +1,33 @@
-from collections import Counter
-
 
 class Solution:
-
     def minWindow(self, s: str, t: str) -> str:
-        if not s or not t or len(s) < len(t):
+        if not t or not s or len(s)<len(t):
             return ""
 
         count_t = Counter(t)
         window = {}
-
-        have, need = 0, len(count_t)
-        res, min_len = [-1, -1], float("inf")
+        have = 0
+        need = len(count_t)
         l = 0
+        min_len = float('inf')
+        for r,char in enumerate(s):
+            window[char] = window.get(char,0)+1
 
-        for r, char in enumerate(s):
-            window[char] = window.get(char, 0) + 1
             if char in count_t and window[char] == count_t[char]:
-                have += 1
-
-            while have == need:
-                if (r - l + 1) < min_len:
-                    res = [l, r]
-                    min_len = r - l + 1
-
+                have+=1
+            while need == have:
+                if (r-l+1) < min_len:
+                    res = [l,r]
+                    min_len = r-l+1
                 left_char = s[l]
-                window[left_char] -= 1
+                window[left_char]-=1
+                if left_char in count_t and window[left_char]< count_t[left_char]:
+                    have-=1
+                l+=1
+        l,r = res
+        return s[l:r+1] if min_len != float('inf') else ""
 
-                if left_char in count_t and window[left_char] < count_t[left_char]:
-                    have -= 1
 
-                l += 1
+       
 
-        l, r = res
-        return s[l : r + 1] if min_len != float("inf") else ""
+        
