@@ -9,6 +9,7 @@ class Solution:
         have = 0
         need = len(count_t)
         l = 0
+        res = [-1,-1]
         min_len = float('inf')
         for r,char in enumerate(s):
             window[char] = window.get(char,0)+1
