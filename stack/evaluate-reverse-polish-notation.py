@@ -20,5 +20,4 @@ class Solution:
                     op2, op1 = stack.pop(), stack.pop()
                     stack.append(int(op1 / op2))
 
-
         return stack[0]
