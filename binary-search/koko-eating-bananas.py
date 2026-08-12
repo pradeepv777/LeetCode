@@ -19,11 +19,6 @@ class Solution:
                 right = k-1
             else:
                 left = k+1
-
-            if total_hrs> h:
-                left = k+1
-            else:
-                right = k-1
         return min(min_vals)
             
 
