@@ -3,7 +3,7 @@ class Solution:
         max_pile = max(piles)
         left = 1
         right = max_pile
-        min_vals = []
+        min_k = float("inf")
 
         while left<=right:
             k = (left+right)//2
@@ -15,11 +15,12 @@ class Solution:
                     total_hrs+=1
 
             if total_hrs <= h:
-                min_vals.append(k)
+                min_k = min(k,min_k)
                 right = k-1
             else:
                 left = k+1
-        return min(min_vals)
+
+        return min_k
             
 
 
