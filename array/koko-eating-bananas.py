@@ -15,7 +15,7 @@ class Solution:
                     total_hrs+=1
 
             if total_hrs <= h:
-                min_k = min(k,min_k)
+                min_k = k
                 right = k-1
             else:
                 left = k+1
