@@ -2,7 +2,7 @@ class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         final = ""
         for i in t:
-            if i in s:
+            if i in s and i not in final:
                 final+=i
         return final == s
         
