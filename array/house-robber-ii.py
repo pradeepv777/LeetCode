@@ -14,10 +14,7 @@ class Solution:
                 if i >= len(arr):
                     return 0
 
-                memo[i] = max(
-                    arr[i] + dfs(i + 2),
-                    dfs(i + 1)
-                )
+                memo[i] = max(arr[i] + dfs(i + 2),dfs(i + 1))
                 return memo[i]
 
             return dfs(0)
