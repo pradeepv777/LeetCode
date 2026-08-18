@@ -1,5 +1,10 @@
 class Solution:
     def countSubstrings(self, s: str) -> int:
+        if not s:
+            return 0
+        if len(s) == 1:
+            return 1
+
         max_len = 0
 
         for i in range(len(s)):
