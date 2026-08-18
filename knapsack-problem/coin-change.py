@@ -1,9 +1,5 @@
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        if sum(coins) == amount:
-            return len(coins)
-        if not coins:
-            return 0
 
         memo = {}
         def dfs(rem):
