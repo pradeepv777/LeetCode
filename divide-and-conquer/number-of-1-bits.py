@@ -1,7 +1,6 @@
 class Solution:
     def hammingWeight(self, n: int) -> int:
-        if not n or n == 0:
-            return 0
+
         count = 0
         while n > 0 : 
            rem =  n % 2
