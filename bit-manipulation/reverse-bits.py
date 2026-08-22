@@ -1,10 +1,11 @@
 class Solution:
     def reverseBits(self, n: int) -> int:
-        binary = ""
+        res = 0
 
-        while n > 0:
-            binary = str(n % 2) + binary
-            n = n // 2
+        for i in range(32):
+            
+            bit = n % 2
+            res = res * 2 + bit
+            n //= 2
 
-        return int(binary)
-        
+        return res
