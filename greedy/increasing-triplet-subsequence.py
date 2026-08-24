@@ -5,7 +5,7 @@ class Solution:
 
         for i in nums:
 
-            if i < min1:
+            if i <= min1:
                 min1 = i
 
             elif i <= min2: # min2 proves that there has been a smaller sol before
