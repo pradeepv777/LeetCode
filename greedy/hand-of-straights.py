@@ -11,12 +11,13 @@ class Solution:
         while hand:
 
             smallest = heapq.heappop(hand)
+            # If this card was already completely used up by early group, skip
             if hand_map[smallest] == 0:
                 continue
 
             for nxt in range(smallest, smallest + groupSize):
 
-                if hand_map[nxt] <= 0:
+                if hand_map[nxt] <= 0:# all cards used
                     return False
                 
                 hand_map[nxt] -= 1
