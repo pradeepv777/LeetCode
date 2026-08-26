@@ -14,7 +14,7 @@ class Solution:
                 min_jumps+=1
                 overall_sum = max_val
 
-                if overall_sum >= len(nums) :
+                if overall_sum >= len(nums)-1 :
                     break
 
         return min_jumps
