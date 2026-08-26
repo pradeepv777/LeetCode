@@ -4,22 +4,25 @@ class Solution:
 
         if groupSize > len(hand):
             return False
+
+        hand_map = Counter(hand)
         heapq.heapify(hand)
 
         while hand:
 
             smallest = heapq.heappop(hand)
-            for nxt in range(smallest+1, smallest + groupSize):# for next k elemnts not there or not
-                if nxt not in hand : # curr + 1,+2 till k
+            if hand_map[smallest] == 0:
+                continue
+
+            for nxt in range(smallest, smallest + groupSize):
+
+                if hand_map[nxt] <= 0:
                     return False
-                hand.remove(nxt) # rm if all there
+                
+                hand_map[nxt] -= 1
 
         return True
 
 
-
-
-
-
-
-        
+  
+            
