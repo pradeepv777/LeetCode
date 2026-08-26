@@ -2,7 +2,7 @@ import heapq
 class Solution:
     def isNStraightHand(self, hand: List[int], groupSize: int) -> bool:
 
-        if groupSize > len(hand) or groupSize > (len(hand) // 2) + 1:
+        if groupSize > len(hand):
             return False
         heapq.heapify(hand)
 
