@@ -9,10 +9,10 @@ class Solution:
                 triplet[2] > target[2]):
                 continue
 
-        for i in range(3):
+                for i in range(3):
 
-            if triplet[i] == target[i]:
-                valid[i] = True
+                    if triplet[i] == target[i]:
+                        valid[i] = True
 
         return all(valid)
 
