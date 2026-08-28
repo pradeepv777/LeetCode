@@ -1,5 +1,7 @@
 class Solution:
     def partitionLabels(self, s: str) -> List[int]:
+        if not s:
+            return [0]
 
         last_seen = {char: i for i, char in enumerate(s)}
         
