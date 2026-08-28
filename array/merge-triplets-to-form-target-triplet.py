@@ -12,7 +12,7 @@ class Solution:
         for i in range(3):
 
             if triplet[i] == target[i]:
-                valid[i] == True
+                valid[i] = True
 
         return all(valid)
 
