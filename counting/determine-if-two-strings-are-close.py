@@ -1,0 +1,23 @@
+class Solution:
+    def closeStrings(self, word1: str, word2: str) -> bool:
+        word1_map = Counter(word1)
+        word2_map = Counter(word2)
+        
+        if len(word2) != len(word1)or len(word2) > len(word1) :
+            return False
+
+        elif not sorted(word1_map.values()) == sorted(word2_map.values()):
+            return False
+
+        elif not sorted(word1_map.keys()) == sorted(word2_map.keys()):
+            return False
+
+        return True
+
+
+
+    
+        
+        
+
+        
