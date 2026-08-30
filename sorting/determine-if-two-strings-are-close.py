@@ -2,6 +2,7 @@ class Solution:
     """
     Since there are only 26 alphabets the total sorts can never go past
     26 sorts i.e(26 log(26)) = 122 operations which is the hard limit.
+    Time - O(n) and Space O(1)
     """
 
     def closeStrings(self, word1: str, word2: str) -> bool:
