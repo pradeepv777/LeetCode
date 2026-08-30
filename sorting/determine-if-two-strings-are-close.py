@@ -3,7 +3,7 @@ class Solution:
         word1_map = Counter(word1)
         word2_map = Counter(word2)
         
-        if len(word2) != len(word1)or len(word2) > len(word1) :
+        if len(word2) != len(word1) :
             return False
 
         elif not sorted(word1_map.values()) == sorted(word2_map.values()):
