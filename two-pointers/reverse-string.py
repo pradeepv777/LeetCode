@@ -1,9 +1,15 @@
-class Solution(object):
-    def reverseString(self, s):
+class Solution:
+    def reverseString(self, s: List[str]) -> None:
         """
-        :type s: List[str]
-        :rtype: None Do not return anything, modify s in-place instead.
+        Do not return anything, modify s in-place instead.
         """
-        s.reverse()
+        def helper(left,right):
+            if left > right:
+                return
+            s[right],s[left] = s[left],s[right]
+            helper(left+1,right-1)
 
+        helper(0,len(s)-1)
+        return s
+            
         
