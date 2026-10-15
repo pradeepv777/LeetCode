@@ -5,13 +5,13 @@ This repository contains my solutions to a diverse array to LeetCode problems.
 <!-- SOLUTIONS_START -->
 
 <p align="center">
-<a href="#solution-archive"><img src=".leetbridge/progress.svg" alt="15 solved: 7 Easy, 6 Medium, 0 Hard" width="33.333%"></a><a href="https://github.com/pradeepv777/LeetCode/search?q=language%3APython&amp;type=code"><img src=".leetbridge/languages.svg" alt="Solution languages" width="33.333%"></a><a href="https://leetcode.com/u/Pradeep_777/"><img src=".leetbridge/difficulty.svg" alt="Difficulty breakdown" width="33.333%"></a>
+<a href="#solution-archive"><img src=".leetbridge/progress.svg" alt="16 solved: 7 Easy, 7 Medium, 0 Hard" width="33.333%"></a><a href="https://github.com/pradeepv777/LeetCode/search?q=language%3APython&amp;type=code"><img src=".leetbridge/languages.svg" alt="Solution languages" width="33.333%"></a><a href="https://leetcode.com/u/Pradeep_777/"><img src=".leetbridge/difficulty.svg" alt="Difficulty breakdown" width="33.333%"></a>
 </p>
 
 <!-- LEETBRIDGE_ARCHIVE_CELLS_V3 -->
 <a name="solution-archive"></a>
 <p align="center"><picture>
-<img src=".leetbridge/archive/header.svg?v=3" alt="Solution Archive: 15 accepted problems synced by LeetBridge" width="100%">
+<img src=".leetbridge/archive/header.svg?v=3" alt="Solution Archive: 16 accepted problems synced by LeetBridge" width="100%">
 </picture></p>
 <table align="center" width="100%">
 <tbody>
@@ -28,6 +28,7 @@ This repository contains my solutions to a diverse array to LeetCode problems.
 <tr><td width="53%"><a href="https://leetcode.com/problems/diameter-of-binary-tree/"><img src=".leetbridge/archive/problems/0543-diameter-of-binary-tree.svg?v=3" alt="0543 · Diameter of Binary Tree" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/easy.svg?v=3" alt="Easy" width="100%"></picture></td><td width="30%"><a href="0543-diameter-of-binary-tree/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
 <tr><td width="53%"><a href="https://leetcode.com/problems/subtree-of-another-tree/"><img src=".leetbridge/archive/problems/0572-subtree-of-another-tree.svg?v=3" alt="0572 · Subtree of Another Tree" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/easy.svg?v=3" alt="Easy" width="100%"></picture></td><td width="30%"><a href="0572-subtree-of-another-tree/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
 <tr><td width="53%"><a href="https://leetcode.com/problems/max-area-of-island/"><img src=".leetbridge/archive/problems/0695-max-area-of-island.svg?v=3" alt="0695 · Max Area of Island" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/medium.svg?v=3" alt="Medium" width="100%"></picture></td><td width="30%"><a href="0695-max-area-of-island/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
+<tr><td width="53%"><a href="https://leetcode.com/problems/rotting-oranges/"><img src=".leetbridge/archive/problems/0994-rotting-oranges.svg?v=3" alt="0994 · Rotting Oranges" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/medium.svg?v=3" alt="Medium" width="100%"></picture></td><td width="30%"><a href="0994-rotting-oranges/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
 <tr><td width="53%"><a href="https://leetcode.com/problems/subsets/"><img src=".leetbridge/archive/problems/unranked-subsets.svg?v=3" alt="N/A · subsets" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/other.svg?v=3" alt="Unknown" width="100%"></picture></td><td width="30%"><a href="subsets/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
 <tr><td width="53%"><a href="https://leetcode.com/problems/zigzag-conversion/"><img src=".leetbridge/archive/problems/unranked-zigzag-conversion.svg?v=3" alt="N/A · zigzag-conversion" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/other.svg?v=3" alt="Unknown" width="100%"></picture></td><td width="30%"><a href="zigzag-conversion/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
 </tbody>
