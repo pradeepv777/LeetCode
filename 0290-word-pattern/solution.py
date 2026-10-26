@@ -4,16 +4,18 @@ class Solution:
         if len(s) != len(pattern):
             return False
 
-        chars= {}
+        pattern_map= {}
         words = {}
 
-        for c, w in zip(pattern, s):
-            if c in chars and chars[c] != w:
+        for char, w in zip(pattern, s): #zip - maps words {a:cat, b: dog} etc.
+            if char in pattern_map and pattern_map[char] != w:
+                return False 
+            if w in words and words[w] != char:
                 return False
-            if w in words and words[w] != c:
-                return False
-            chars[c] = w
-            words[w] = c
+
+            pattern_map[char] = w
+            words[w] = char
+            
         return True
         
        
