@@ -5,7 +5,7 @@ This repository contains my solutions to a diverse array to LeetCode problems.
 <!-- SOLUTIONS_START -->
 
 <p align="center">
-<a href="#solution-archive"><img src=".leetbridge/progress.svg" alt="31 solved: 10 Easy, 19 Medium, 0 Hard" width="33.333%"></a><a href="https://github.com/pradeepv777/LeetCode/search?q=language%3APython&amp;type=code"><img src=".leetbridge/languages.svg" alt="Solution languages" width="33.333%"></a><a href="https://leetcode.com/u/Pradeep_777/"><img src=".leetbridge/difficulty.svg" alt="Difficulty breakdown" width="33.333%"></a>
+<a href="#solution-archive"><img src=".leetbridge/progress.svg" alt="31 solved: 10 Easy, 19 Medium, 0 Hard" width="33.333%"></a><a href="https://github.com/pradeepv777/LeetCode/search?q=language%3APython&amp;type=code"><img src=".leetbridge/languages.svg" alt="Solution languages" width="33.333%"></a><a href="https://leetcode.com/problemset/"><img src=".leetbridge/difficulty.svg" alt="Difficulty breakdown" width="33.333%"></a>
 </p>
 
 <!-- LEETBRIDGE_ARCHIVE_CELLS_V3 -->
