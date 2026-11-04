@@ -4,6 +4,7 @@ class Solution:
             return ""
         a = len(str1)
         b = len(str2)
+        
         while b:
             a,b = b, a % b
         return str1[:a]
