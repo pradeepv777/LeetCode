@@ -4,9 +4,9 @@ class Solution:
             return ""
         a = len(str1)
         b = len(str2)
-        
-        while b:
-            a,b = b, a % b
+
+        while b:  # Ex. ABCABC -- ABC --> a,b = 3, 0 (since 6 % 3 = 0)
+            a,b = b, a % b  
         return str1[:a]
     
         
