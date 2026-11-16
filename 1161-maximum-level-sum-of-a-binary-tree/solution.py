@@ -6,7 +6,6 @@
 #         self.right = right
 class Solution:
     def maxLevelSum(self, root: TreeNode | None) -> int:
-        res = [root.val]
         q = deque([root])
         max_sum = float('-inf')
         curr_lvl = 1
