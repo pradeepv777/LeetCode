@@ -9,14 +9,16 @@ class Solution:
         left = 0
         right = 2
         i = 1
-        while i < len(nums)-1:
+        n = len(nums)
+        while i < n -1:
             if nums[i] > nums[left] and nums[i] > nums[right]:
                 return i
             else:
                 left += 1
                 right += 1
                 i +=1
-        return len(nums) - 1 if nums[len(nums) - 1] > nums[len(nums) - 2] else 0
+
+        return n - 1 if nums[n - 1] > nums[n - 2] else 0
 
         
 
