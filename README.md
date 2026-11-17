@@ -5,13 +5,13 @@ This repository contains my solutions to a diverse array to LeetCode problems.
 <!-- SOLUTIONS_START -->
 
 <p align="center">
-<a href="#solution-archive"><img src=".leetbridge/progress.svg" alt="52 solved: 16 Easy, 33 Medium, 1 Hard" width="33.333%"></a><a href="https://github.com/pradeepv777/LeetCode/search?q=language%3APython&amp;type=code"><img src=".leetbridge/languages.svg" alt="Solution languages" width="33.333%"></a><a href="https://leetcode.com/u/Pradeep_777/"><img src=".leetbridge/difficulty.svg" alt="Difficulty breakdown" width="33.333%"></a>
+<a href="#solution-archive"><img src=".leetbridge/progress.svg" alt="53 solved: 16 Easy, 34 Medium, 1 Hard" width="33.333%"></a><a href="https://github.com/pradeepv777/LeetCode/search?q=language%3APython&amp;type=code"><img src=".leetbridge/languages.svg" alt="Solution languages" width="33.333%"></a><a href="https://leetcode.com/u/Pradeep_777/"><img src=".leetbridge/difficulty.svg" alt="Difficulty breakdown" width="33.333%"></a>
 </p>
 
 <!-- LEETBRIDGE_ARCHIVE_CELLS_V3 -->
 <a name="solution-archive"></a>
 <p align="center"><picture>
-<img src=".leetbridge/archive/header.svg?v=3" alt="Solution Archive: 52 accepted problems synced by LeetBridge" width="100%">
+<img src=".leetbridge/archive/header.svg?v=3" alt="Solution Archive: 53 accepted problems synced by LeetBridge" width="100%">
 </picture></p>
 <table align="center" width="100%">
 <tbody>
@@ -65,6 +65,7 @@ This repository contains my solutions to a diverse array to LeetCode problems.
 <tr><td width="53%"><a href="https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/"><img src=".leetbridge/archive/problems/1372-longest-zigzag-path-in-a-binary-tree.svg?v=3" alt="1372 · Longest ZigZag Path in a Binary Tree" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/medium.svg?v=3" alt="Medium" width="100%"></picture></td><td width="30%"><a href="1372-longest-zigzag-path-in-a-binary-tree/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
 <tr><td width="53%"><a href="https://leetcode.com/problems/max-number-of-k-sum-pairs/"><img src=".leetbridge/archive/problems/1679-max-number-of-k-sum-pairs.svg?v=3" alt="1679 · Max Number of K-Sum Pairs" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/medium.svg?v=3" alt="Medium" width="100%"></picture></td><td width="30%"><a href="1679-max-number-of-k-sum-pairs/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
 <tr><td width="53%"><a href="https://leetcode.com/problems/successful-pairs-of-spells-and-potions/"><img src=".leetbridge/archive/problems/2300-successful-pairs-of-spells-and-potions.svg?v=3" alt="2300 · Successful Pairs of Spells and Potions" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/medium.svg?v=3" alt="Medium" width="100%"></picture></td><td width="30%"><a href="2300-successful-pairs-of-spells-and-potions/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
+<tr><td width="53%"><a href="https://leetcode.com/problems/removing-stars-from-a-string/"><img src=".leetbridge/archive/problems/2390-removing-stars-from-a-string.svg?v=3" alt="2390 · Removing Stars From a String" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/medium.svg?v=3" alt="Medium" width="100%"></picture></td><td width="30%"><a href="2390-removing-stars-from-a-string/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
 <tr><td width="53%"><a href="https://leetcode.com/problems/subsets/"><img src=".leetbridge/archive/problems/unranked-subsets.svg?v=3" alt="N/A · subsets" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/other.svg?v=3" alt="Unknown" width="100%"></picture></td><td width="30%"><a href="subsets/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
 <tr><td width="53%"><a href="https://leetcode.com/problems/zigzag-conversion/"><img src=".leetbridge/archive/problems/unranked-zigzag-conversion.svg?v=3" alt="N/A · zigzag-conversion" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/other.svg?v=3" alt="Unknown" width="100%"></picture></td><td width="30%"><a href="zigzag-conversion/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
 </tbody>
